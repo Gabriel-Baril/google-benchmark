@@ -66,3 +66,9 @@ CMakeSettings.json
 # Python build stuff
 dist/
 *.egg-info*
+
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+out/
+x64/
