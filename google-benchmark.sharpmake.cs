@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class GoogleBenchmarkProject : BaseCppProject
+public class HdnCodeExternalGoogleBenchmarkProject : BaseCppProject
 {
-    public GoogleBenchmarkProject()
+    public HdnCodeExternalGoogleBenchmarkProject()
     {
-        Name = "google-benchmark";
+        Name = "hdn.code.external.google-benchmark";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
