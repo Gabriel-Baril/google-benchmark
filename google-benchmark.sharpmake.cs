@@ -6,7 +6,7 @@ public class HdnCodeExternalGoogleBenchmarkProject : BaseCppProject
 {
     public HdnCodeExternalGoogleBenchmarkProject()
     {
-        Name = "hdn.code.external.google-benchmark";
+        Name = "dm.code.external.google-benchmark";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
